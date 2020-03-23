@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta description="远梦心情是一家心情音乐分享网站,提供信息服务,致力于互动分享使每个人生活更加美好。">
+    <title>远梦心情音乐</title>
+    <style>
+	.audiojs { margin: 0 auto; }
+    </style>
+  </head>
+  <body style="text-align:center;">
+    <p><h5>天下没有不散的筵席。</h5></p>
+    <p><h5>我们很自豪地说，我们已经推出了 <a href="http://chaoxindong.com" target="_blank">ChaoXinDong</a>。</h5></p>
+    <p><h5><a href="http://chaoxindong.com" target="_blank">ChaoXinDong</a> 是体验更好的 Web2.0 站点。</h5></p>
+    <p><h5>2020年03月30日，我们将在那里开启 视觉 与 听觉 的新尝试。</h5></p>
+    <audio src="./audition/Bubble.mp3" preload="auto" autoplay="autoplay">
+    您的浏览器不支持 audio 标签。
+    </audio>
+  </body>
+  <script src="https://cdn.bootcss.com/audiojs/1.0.1/audio.min.js"></script>
+<script>
+(function () {
+  audiojs.events.ready(function() {
+    var as = audiojs.createAll();
+  });
+})()
+</script>
+</html>
